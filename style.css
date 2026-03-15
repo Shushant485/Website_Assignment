@@ -1,0 +1,97 @@
+body{
+font-family: Arial;
+margin:0;
+background:#f4f4f4;
+transition:0.3s;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 10%;
+background:#222;
+color:white;
+}
+
+nav a{
+color:white;
+margin:0 10px;
+text-decoration:none;
+}
+
+nav button{
+padding:6px 10px;
+cursor:pointer;
+}
+
+.hero{
+text-align:center;
+padding:120px 20px;
+background:linear-gradient(135deg,#4facfe,#00f2fe);
+color:white;
+}
+
+.hero button{
+padding:12px 25px;
+border:none;
+background:white;
+color:black;
+cursor:pointer;
+margin-top:20px;
+}
+
+.features{
+display:flex;
+justify-content:center;
+gap:20px;
+padding:60px;
+flex-wrap:wrap;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:10px;
+width:200px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+.page{
+text-align:center;
+padding:80px 20px;
+}
+
+form{
+display:flex;
+flex-direction:column;
+width:300px;
+margin:auto;
+gap:10px;
+}
+
+input,textarea{
+padding:10px;
+}
+
+button{
+padding:10px;
+border:none;
+background:#333;
+color:white;
+cursor:pointer;
+}
+
+.dark{
+background:#121212;
+color:white;
+}
+
+.dark header{
+background:black;
+}
